@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de HTML5</title>
+    <link rel="stylesheet" href="Dise%C3%B1o.css">
+</head>
+<body>
+   <form method="get" action="">
+   
+   <h2>Formulario</h2>
+     <input type="text" name="Nombre" placeholder="Nombre" autofocus>
+    
+    <input class="buscar2" type="search" name="busquedamodelos" list="listamodelos" placeholder="Buscar">
+
+    <input class="buscar" type="submit" value="Buscar">
+
+ 
+   
+    
+     <input type="number" name="Numero" placeholder="Número de control" min="-10" max="10" maxlength="4" onkeydown="if(this.value.length == 4)return false;">
+    
+    <input type="email" name="E-mail" placeholder="dsg1712@hotmail.com">
+    
+    <label for="" class="formulario__label">Mes:</label>
+    
+    <input type="month" name="Mes" placeholder="Mes">
+    
+    <label for="" class="formulario__label">Semana:</label>
+    
+    <input type="week" name="Semana" placeholder="Semana">
+    
+   <label for="" class="formulario__label">Selecciona tu color favorito :</label>
+    
+    <input class="Color"  type="color" name="Color">
+    
+    <input class="Enviar" type="submit" name="Enviar" value="Enviar">
+
+        </form>
+    <datalist id="listamodelos">
+
+  <option value="Camaro">
+
+  <option value="Corvette">
+
+  <option value="Impala">
+
+  <option value="Colorado">
+
+</datalist>
+
+</body>
+</html>
